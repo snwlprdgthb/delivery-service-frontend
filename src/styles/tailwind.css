@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .inputHandle {
+    @apply focus:outline-none focus:border-gray-500 text-lg font-light p-3 border-2 border-gray-200 transition-colors;
+  }
+
+  .container {
+    @apply mx-auto max-w-screen-lg w-full;
+  }
+
+  .link {
+    @apply text-lime-600 hover:underline;
+  }
+
+  .btn {
+    @apply font-medium p-3  text-lg text-white bg-lime-600  hover:bg-lime-800 transition-colors;
+  }
+}
