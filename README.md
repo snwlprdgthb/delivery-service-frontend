@@ -10,6 +10,6 @@ Runs the app in the development mode.
 
 Generate static types for GraphQL queries from Backend
 
-### `npm run tailwind:build
+### `npm run tailwind:build`
 
 Generate styles by Tailwind CSS
